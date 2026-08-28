@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "代码编辑器",
+    "slug": "mobile-code-editor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codeeditor.app"
+    },
+    "android": {
+      "package": "com.codeeditor.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#1e1e1e",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
